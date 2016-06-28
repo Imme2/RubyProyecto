@@ -13,7 +13,7 @@ class ArbolBinario
 	end
 
 	def each
-		return  [@hijoIzquierdo, @hijoDerecho]
+		yield [@hijoIzquierdo,@hijoDerecho]
 	end
 
 end
