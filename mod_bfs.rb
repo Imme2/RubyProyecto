@@ -1,4 +1,4 @@
-module bfs
+module BFS
 
 	def bfs
 
@@ -23,11 +23,14 @@ module bfs
 			end
 			cola = auxCola
 		end
+
+		self
+
 	end
 
 
-	# FALTA.
-	def recoger(&pred)
+	# metodo de recoger que obtiene un predicado de forma explicita.
+	def recoger(pred)
 
 		# Se crea un arreglo 
 		arr = []
